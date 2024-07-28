@@ -3,7 +3,7 @@
     <router-link 
       v-for="shalat in shalats" 
       :key="shalat" 
-      :to="`/shalat/${shalat}`"
+      :to="`/${shalat}`"
       class="btn btn-primary w-full"
     >
       {{ capitalizeFirstLetter(shalat) }}
