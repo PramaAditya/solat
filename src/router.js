@@ -4,7 +4,7 @@ import ShalatView from './views/ShalatView.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/shalat/:name', component: ShalatView, props: true }
+  { path: '/:name', component: ShalatView, props: true }
 ]
 
 const router = createRouter({
